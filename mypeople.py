@@ -5,7 +5,7 @@ c = twint.Config()
 c.To = "networkchuck"
 c.Since = today
 c.Hide_output = True
-c.Store_object - True
+c.Store_object = True
 
 twint.run.Search(c)
 

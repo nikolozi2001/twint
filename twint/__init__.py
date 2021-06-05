@@ -30,3 +30,7 @@ if _level == "debug":
     fileHandler.setLevel(_logLevel)
     fileHandler.setFormatter(formatter)
     logger.addHandler(fileHandler)
+
+
+def output():
+    return None
